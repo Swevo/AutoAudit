@@ -10,7 +10,7 @@
     <IncludeBuildOutput>false</IncludeBuildOutput>
     <NoWarn>$(NoWarn);NU5017;NU5128</NoWarn>
 
-    <PackageId>AutoAudit</PackageId>
+    <PackageId>Swevo.AutoAudit</PackageId>
     <Version>1.0.0</Version>
     <Authors>Justin Bannister</Authors>
     <Copyright>Copyright (c) 2025 Justin Bannister</Copyright>

@@ -1,7 +1,7 @@
-# AutoAudit
+# Swevo.AutoAudit
 
-[![NuGet](https://img.shields.io/nuget/v/AutoAudit.svg)](https://www.nuget.org/packages/AutoAudit/)
-[![Build](https://github.com/Swevo/AutoAudit/actions/workflows/build.yml/badge.svg)](https://github.com/Swevo/AutoAudit/actions/workflows/build.yml)
+[![NuGet](https://img.shields.io/nuget/v/Swevo.AutoAudit.svg)](https://www.nuget.org/packages/Swevo.AutoAudit/)
+[![Build](https://github.com/Swevo/Swevo.AutoAudit/actions/workflows/build.yml/badge.svg)](https://github.com/Swevo/Swevo.AutoAudit/actions/workflows/build.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 Compile-time audit field generation for EF Core entities using Roslyn source generators. Add `[Auditable]` to any `partial` entity class and get `CreatedAt`, `UpdatedAt`, `CreatedBy`, and `UpdatedBy` properties — plus a ready-to-use `AuditInterceptor` — all generated at build time. Zero reflection, AOT-safe, no runtime overhead.
@@ -11,7 +11,7 @@ Compile-time audit field generation for EF Core entities using Roslyn source gen
 ## Installation
 
 ```bash
-dotnet add package AutoAudit
+dotnet add package Swevo.AutoAudit
 ```
 
 Requires EF Core 7+.
@@ -23,7 +23,7 @@ Requires EF Core 7+.
 ### 1. Mark your entity
 
 ```csharp
-using AutoAudit;
+using Swevo.AutoAudit;
 
 [Auditable]
 public partial class Order
@@ -77,7 +77,7 @@ That's it. `CreatedAt`/`CreatedBy` are set on insert; `UpdatedAt`/`UpdatedBy` ar
 
 ## Generated Types
 
-The generator emits three shared sources into your project's `AutoAudit` namespace:
+The generator emits three shared sources into your project's `Swevo.AutoAudit` namespace:
 
 | Type | Description |
 |---|---|
