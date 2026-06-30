@@ -1,6 +1,7 @@
 # Swevo.AutoAudit
 
-[![NuGet](https://img.shields.io/nuget/v/Swevo.AutoAudit.svg)](https://www.nuget.org/packages/Swevo.AutoAudit/)
+[![NuGet](https://img.shields.io/nuget/v/Swevo.AutoAudit
+[![NuGet Downloads](https://img.shields.io/nuget/dt/Swevo.AutoAudit.svg)](https://www.nuget.org/packages/Swevo.AutoAudit).svg)](https://www.nuget.org/packages/Swevo.AutoAudit/)
 [![Build](https://github.com/Swevo/Swevo.AutoAudit/actions/workflows/build.yml/badge.svg)](https://github.com/Swevo/Swevo.AutoAudit/actions/workflows/build.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
