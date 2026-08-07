@@ -4,6 +4,7 @@
 [![NuGet Downloads](https://img.shields.io/nuget/dt/Swevo.AutoAudit.svg)](https://www.nuget.org/packages/Swevo.AutoAudit).svg)](https://www.nuget.org/packages/Swevo.AutoAudit/)
 [![Build](https://github.com/Swevo/Swevo.AutoAudit/actions/workflows/build.yml/badge.svg)](https://github.com/Swevo/Swevo.AutoAudit/actions/workflows/build.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![.NET 10 Ready](https://img.shields.io/badge/.NET-10.0-512BD4?logo=dotnet)](#)
 
 Compile-time audit field generation for EF Core entities using Roslyn source generators. Add `[Auditable]` to any `partial` entity class and get `CreatedAt`, `UpdatedAt`, `CreatedBy`, and `UpdatedBy` properties — plus a ready-to-use `AuditInterceptor` — all generated at build time. Zero reflection, AOT-safe, no runtime overhead.
 
